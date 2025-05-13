@@ -6,8 +6,6 @@ A mini Tetris game built in JavaScript, inspired by the classic **Nintendo Game 
 
 ## 📦 About the Project
 
-This project is inspired by [Day #73 - Gameboy Tetris Clone](https://github.com/AsmrProg-YT/100-days-of-javascript/tree/master/Day%20%2373%20-%20Gameboy%20Tetris%20Clone) from the [100 Days of JavaScript](https://github.com/AsmrProg-YT/100-days-of-javascript) series.
-
 It’s built using:
 - 🧠 **JavaScript** (with the p5.js library for drawing)
 - 🎨 **HTML & CSS** (with a custom retro font)
@@ -33,4 +31,4 @@ It’s built using:
 
 ## 📸 Inspired By
 - The original Nintendo Game Boy™
-- The project by AsmrProg - 100 Days of JavaScript
+- This project is inspired by [Day #73 - Gameboy Tetris Clone](https://github.com/AsmrProg-YT/100-days-of-javascript/tree/master/Day%20%2373%20-%20Gameboy%20Tetris%20Clone) from the [100 Days of JavaScript](https://github.com/AsmrProg-YT/100-days-of-javascript) series.
