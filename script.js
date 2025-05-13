@@ -48,15 +48,15 @@ function setup() {
 // Draw function called repeatedly
 function draw() {
     // Colors defined used in the game
-    const colorDark = '#A2B9A7';
-    const colorLight = '#309898';
-    const colorBackground = '#143D60';
+    const colorDark = '#94a15c';
+    const colorLight = '#d1e384';
+    const colorBackground = '#94a15c';
 
     // Set the background color
     background(colorBackground);
 
     // Draw the right side info panel
-    fill(25);
+    fill('#777778');
     noStroke();
     rect(gameEdgeRight, 0, 150, height);
 
@@ -68,10 +68,7 @@ function draw() {
     rect(450, 80, 150, 70);
 
     // Draw the next piece rectangle
-    rect(460, 405, 130, 130, 5, 5);
-
-    // Draw the next piece rectangle 
-    rect(460, 405, 130, 130, 5, 5);
+    rect(460, 395, 130, 130, 5, 5);
 
     // Draw the level rectangle
     rect(460, 210, 130, 60, 5, 5);
@@ -97,7 +94,7 @@ function draw() {
 
     // Draw the next piece inner rectangle
     stroke(colorLight);
-    rect(465, 410, 120, 120, 5, 5);
+    rect(465, 400, 120, 120, 5, 5);
 
     // Draw the level inner rectange
     rect(465, 215, 120, 50, 5, 5);
@@ -161,9 +158,9 @@ function draw() {
 
     //Explain the controls 
     textAlign(CENTER);
-    fill(255);
+    fill(25);
     noStroke();
-    textSize(14);
+    textSize(16);
     text("Controls:\n↑\n← ↓ →\n", 75, 155);
     text("Left and Right:\nmove side to side", 75, 230);
     text("Up:\nrotate", 75, 280);
@@ -172,7 +169,7 @@ function draw() {
 
     // Show the gameOver text
     if (gameOver) {
-        fill('#fc0505');
+        fill(25);
         textSize(54);
         textAlign(CENTER);
         text("Game Over", 300, 270);
@@ -222,7 +219,7 @@ class PlayPiece {
         this.nextPieces = [];
 
         const points = orientPoints(this.nextPieceType, 0);
-        let xx = 525, yy = 490;
+        let xx = 525, yy = 480;
 
         if (this.nextPieceType !== 0 && this.nextPieceType !== 3 && this.nextPieceType !== 5) {
             xx += (gridSpace * 0.5);
