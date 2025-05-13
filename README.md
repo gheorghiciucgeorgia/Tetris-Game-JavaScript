@@ -1,4 +1,4 @@
-# 🎮 Tetris Game Clone
+# 🎮 Tetris Game
 
 A mini Tetris game built in JavaScript, inspired by the classic **Nintendo Game Boy™** design.
 
